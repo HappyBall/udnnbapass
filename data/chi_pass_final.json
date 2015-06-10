@@ -1,0 +1,86 @@
+{
+ "nodes": [
+  {
+   "group": 1, 
+   "name": "Derrick Rose"
+  }, 
+  {
+   "group": 1, 
+   "name": "Jimmy Butler"
+  }, 
+  {
+   "group": 1, 
+   "name": "Joakim Noah"
+  }, 
+  {
+   "group": 1, 
+   "name": "Mike Dunleavy"
+  }, 
+  {
+   "group": 1, 
+   "name": "Pau Gasol"
+  }
+ ], 
+ "links": [
+  {
+   "source": 0, 
+   "target": 4, 
+   "value": 29.630000000000003, 
+   "class": "passto"
+  }, 
+  {
+   "source": 0, 
+   "target": 1, 
+   "value": 17.619999999999997, 
+   "class": "passto"
+  }, 
+  {
+   "source": 0, 
+   "target": 2, 
+   "value": 22.69, 
+   "class": "passto"
+  }, 
+  {
+   "source": 0, 
+   "target": 3, 
+   "value": 9.47, 
+   "class": "passto"
+  }, 
+  {
+   "source": 1, 
+   "target": 4, 
+   "value": 14.26, 
+   "class": "passto"
+  }, 
+  {
+   "source": 1, 
+   "target": 2, 
+   "value": 12.58, 
+   "class": "passto"
+  }, 
+  {
+   "source": 1, 
+   "target": 3, 
+   "value": 5.289999999999999, 
+   "class": "passto"
+  }, 
+  {
+   "source": 2, 
+   "target": 3, 
+   "value": 8.559999999999999, 
+   "class": "passto"
+  }, 
+  {
+   "source": 2, 
+   "target": 4, 
+   "value": 6.720000000000001, 
+   "class": "passto"
+  }, 
+  {
+   "source": 3, 
+   "target": 4, 
+   "value": 8.3, 
+   "class": "passto"
+  }
+ ]
+}

@@ -1,0 +1,86 @@
+{
+ "nodes": [
+  {
+   "group": 1, 
+   "name": "Chandler Parsons"
+  }, 
+  {
+   "group": 1, 
+   "name": "Dirk Nowitzki"
+  }, 
+  {
+   "group": 1, 
+   "name": "Monta Ellis"
+  }, 
+  {
+   "group": 1, 
+   "name": "Rajon Rondo"
+  }, 
+  {
+   "group": 1, 
+   "name": "Tyson Chandler"
+  }
+ ], 
+ "links": [
+  {
+   "source": 0, 
+   "target": 2, 
+   "value": 13.07, 
+   "class": "passto"
+  }, 
+  {
+   "source": 0, 
+   "target": 3, 
+   "value": 11.350000000000001, 
+   "class": "passto"
+  }, 
+  {
+   "source": 0, 
+   "target": 1, 
+   "value": 6.08, 
+   "class": "passto"
+  }, 
+  {
+   "source": 0, 
+   "target": 4, 
+   "value": 7.42, 
+   "class": "passto"
+  }, 
+  {
+   "source": 1, 
+   "target": 3, 
+   "value": 14.86, 
+   "class": "passto"
+  }, 
+  {
+   "source": 1, 
+   "target": 2, 
+   "value": 14.18, 
+   "class": "passto"
+  }, 
+  {
+   "source": 1, 
+   "target": 4, 
+   "value": 3.91, 
+   "class": "passto"
+  }, 
+  {
+   "source": 2, 
+   "target": 3, 
+   "value": 18.41, 
+   "class": "passto"
+  }, 
+  {
+   "source": 2, 
+   "target": 4, 
+   "value": 11.11, 
+   "class": "passto"
+  }, 
+  {
+   "source": 3, 
+   "target": 4, 
+   "value": 9.65, 
+   "class": "passto"
+  }
+ ]
+}

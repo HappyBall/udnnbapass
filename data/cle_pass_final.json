@@ -1,0 +1,86 @@
+{
+ "nodes": [
+  {
+   "group": 1, 
+   "name": "J.R. Smith"
+  }, 
+  {
+   "group": 1, 
+   "name": "Kevin Love"
+  }, 
+  {
+   "group": 1, 
+   "name": "Kyrie Irving"
+  }, 
+  {
+   "group": 1, 
+   "name": "LeBron James"
+  }, 
+  {
+   "group": 1, 
+   "name": "Timofey Mozgov"
+  }
+ ], 
+ "links": [
+  {
+   "source": 0, 
+   "target": 2, 
+   "value": 10.61, 
+   "class": "passto"
+  }, 
+  {
+   "source": 0, 
+   "target": 3, 
+   "value": 8.64, 
+   "class": "passto"
+  }, 
+  {
+   "source": 0, 
+   "target": 1, 
+   "value": 6.45, 
+   "class": "passto"
+  }, 
+  {
+   "source": 0, 
+   "target": 4, 
+   "value": 2.33, 
+   "class": "passto"
+  }, 
+  {
+   "source": 1, 
+   "target": 2, 
+   "value": 28.240000000000002, 
+   "class": "passto"
+  }, 
+  {
+   "source": 1, 
+   "target": 3, 
+   "value": 26.189999999999998, 
+   "class": "passto"
+  }, 
+  {
+   "source": 1, 
+   "target": 4, 
+   "value": 2.27, 
+   "class": "passto"
+  }, 
+  {
+   "source": 2, 
+   "target": 3, 
+   "value": 27.53, 
+   "class": "passto"
+  }, 
+  {
+   "source": 2, 
+   "target": 4, 
+   "value": 8.09, 
+   "class": "passto"
+  }, 
+  {
+   "source": 3, 
+   "target": 4, 
+   "value": 6.24, 
+   "class": "passto"
+  }
+ ]
+}

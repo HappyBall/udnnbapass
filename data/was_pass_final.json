@@ -1,0 +1,86 @@
+{
+ "nodes": [
+  {
+   "group": 1, 
+   "name": "Bradley Beal"
+  }, 
+  {
+   "group": 1, 
+   "name": "John Wall"
+  }, 
+  {
+   "group": 1, 
+   "name": "Marcin Gortat"
+  }, 
+  {
+   "group": 1, 
+   "name": "Nene"
+  }, 
+  {
+   "group": 1, 
+   "name": "Paul Pierce"
+  }
+ ], 
+ "links": [
+  {
+   "source": 0, 
+   "target": 1, 
+   "value": 28.57, 
+   "class": "passto"
+  }, 
+  {
+   "source": 0, 
+   "target": 3, 
+   "value": 9.61, 
+   "class": "passto"
+  }, 
+  {
+   "source": 0, 
+   "target": 2, 
+   "value": 8.99, 
+   "class": "passto"
+  }, 
+  {
+   "source": 0, 
+   "target": 4, 
+   "value": 4.92, 
+   "class": "passto"
+  }, 
+  {
+   "source": 1, 
+   "target": 4, 
+   "value": 22.0, 
+   "class": "passto"
+  }, 
+  {
+   "source": 1, 
+   "target": 2, 
+   "value": 33.34, 
+   "class": "passto"
+  }, 
+  {
+   "source": 1, 
+   "target": 3, 
+   "value": 22.0, 
+   "class": "passto"
+  }, 
+  {
+   "source": 2, 
+   "target": 4, 
+   "value": 6.0600000000000005, 
+   "class": "passto"
+  }, 
+  {
+   "source": 2, 
+   "target": 3, 
+   "value": 2.7199999999999998, 
+   "class": "passto"
+  }, 
+  {
+   "source": 3, 
+   "target": 4, 
+   "value": 5.53, 
+   "class": "passto"
+  }
+ ]
+}

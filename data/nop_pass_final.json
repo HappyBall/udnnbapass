@@ -1,0 +1,86 @@
+{
+ "nodes": [
+  {
+   "group": 1, 
+   "name": "Anthony Davis"
+  }, 
+  {
+   "group": 1, 
+   "name": "Eric Gordon"
+  }, 
+  {
+   "group": 1, 
+   "name": "Omer Asik"
+  }, 
+  {
+   "group": 1, 
+   "name": "Quincy Pondexter"
+  }, 
+  {
+   "group": 1, 
+   "name": "Tyreke Evans"
+  }
+ ], 
+ "links": [
+  {
+   "source": 0, 
+   "target": 4, 
+   "value": 22.78, 
+   "class": "passto"
+  }, 
+  {
+   "source": 0, 
+   "target": 1, 
+   "value": 9.379999999999999, 
+   "class": "passto"
+  }, 
+  {
+   "source": 0, 
+   "target": 2, 
+   "value": 3.29, 
+   "class": "passto"
+  }, 
+  {
+   "source": 0, 
+   "target": 3, 
+   "value": 2.6, 
+   "class": "passto"
+  }, 
+  {
+   "source": 1, 
+   "target": 4, 
+   "value": 19.39, 
+   "class": "passto"
+  }, 
+  {
+   "source": 1, 
+   "target": 2, 
+   "value": 6.05, 
+   "class": "passto"
+  }, 
+  {
+   "source": 1, 
+   "target": 3, 
+   "value": 3.96, 
+   "class": "passto"
+  }, 
+  {
+   "source": 2, 
+   "target": 4, 
+   "value": 17.27, 
+   "class": "passto"
+  }, 
+  {
+   "source": 2, 
+   "target": 3, 
+   "value": 2.25, 
+   "class": "passto"
+  }, 
+  {
+   "source": 3, 
+   "target": 4, 
+   "value": 7.92, 
+   "class": "passto"
+  }
+ ]
+}

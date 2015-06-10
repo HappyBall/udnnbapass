@@ -1,0 +1,86 @@
+{
+ "nodes": [
+  {
+   "group": 1, 
+   "name": "Ersan Ilyasova"
+  }, 
+  {
+   "group": 1, 
+   "name": "Giannis Antetokounmpo"
+  }, 
+  {
+   "group": 1, 
+   "name": "Khris Middleton"
+  }, 
+  {
+   "group": 1, 
+   "name": "Michael Carter-Williams"
+  }, 
+  {
+   "group": 1, 
+   "name": "Zaza Pachulia"
+  }
+ ], 
+ "links": [
+  {
+   "source": 0, 
+   "target": 3, 
+   "value": 8.69, 
+   "class": "passto"
+  }, 
+  {
+   "source": 0, 
+   "target": 2, 
+   "value": 4.71, 
+   "class": "passto"
+  }, 
+  {
+   "source": 0, 
+   "target": 1, 
+   "value": 4.1, 
+   "class": "passto"
+  }, 
+  {
+   "source": 0, 
+   "target": 4, 
+   "value": 3.08, 
+   "class": "passto"
+  }, 
+  {
+   "source": 1, 
+   "target": 3, 
+   "value": 7.55, 
+   "class": "passto"
+  }, 
+  {
+   "source": 1, 
+   "target": 2, 
+   "value": 6.050000000000001, 
+   "class": "passto"
+  }, 
+  {
+   "source": 1, 
+   "target": 4, 
+   "value": 5.8, 
+   "class": "passto"
+  }, 
+  {
+   "source": 2, 
+   "target": 4, 
+   "value": 7.5600000000000005, 
+   "class": "passto"
+  }, 
+  {
+   "source": 2, 
+   "target": 3, 
+   "value": 7.18, 
+   "class": "passto"
+  }, 
+  {
+   "source": 3, 
+   "target": 4, 
+   "value": 6.96, 
+   "class": "passto"
+  }
+ ]
+}

@@ -1,0 +1,86 @@
+{
+ "nodes": [
+  {
+   "group": 1, 
+   "name": "Courtney Lee"
+  }, 
+  {
+   "group": 1, 
+   "name": "Marc Gasol"
+  }, 
+  {
+   "group": 1, 
+   "name": "Mike Conley"
+  }, 
+  {
+   "group": 1, 
+   "name": "Tony Allen"
+  }, 
+  {
+   "group": 1, 
+   "name": "Zach Randolph"
+  }
+ ], 
+ "links": [
+  {
+   "source": 0, 
+   "target": 2, 
+   "value": 18.080000000000002, 
+   "class": "passto"
+  }, 
+  {
+   "source": 0, 
+   "target": 1, 
+   "value": 12.9, 
+   "class": "passto"
+  }, 
+  {
+   "source": 0, 
+   "target": 4, 
+   "value": 9.7, 
+   "class": "passto"
+  }, 
+  {
+   "source": 0, 
+   "target": 3, 
+   "value": 2.6399999999999997, 
+   "class": "passto"
+  }, 
+  {
+   "source": 1, 
+   "target": 2, 
+   "value": 40.22, 
+   "class": "passto"
+  }, 
+  {
+   "source": 1, 
+   "target": 4, 
+   "value": 7.2, 
+   "class": "passto"
+  }, 
+  {
+   "source": 1, 
+   "target": 3, 
+   "value": 5.630000000000001, 
+   "class": "passto"
+  }, 
+  {
+   "source": 2, 
+   "target": 4, 
+   "value": 22.11, 
+   "class": "passto"
+  }, 
+  {
+   "source": 2, 
+   "target": 3, 
+   "value": 10.02, 
+   "class": "passto"
+  }, 
+  {
+   "source": 3, 
+   "target": 4, 
+   "value": 4.64, 
+   "class": "passto"
+  }
+ ]
+}

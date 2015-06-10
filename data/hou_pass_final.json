@@ -1,0 +1,86 @@
+{
+ "nodes": [
+  {
+   "group": 1, 
+   "name": "Donatas Motiejunas"
+  }, 
+  {
+   "group": 1, 
+   "name": "Dwight Howard"
+  }, 
+  {
+   "group": 1, 
+   "name": "James Harden"
+  }, 
+  {
+   "group": 1, 
+   "name": "Patrick Beverley"
+  }, 
+  {
+   "group": 1, 
+   "name": "Trevor Ariza"
+  }
+ ], 
+ "links": [
+  {
+   "source": 0, 
+   "target": 3, 
+   "value": 20.729999999999997, 
+   "class": "passto"
+  }, 
+  {
+   "source": 0, 
+   "target": 2, 
+   "value": 17.34, 
+   "class": "passto"
+  }, 
+  {
+   "source": 0, 
+   "target": 4, 
+   "value": 10.41, 
+   "class": "passto"
+  }, 
+  {
+   "source": 0, 
+   "target": 1, 
+   "value": 2.44, 
+   "class": "passto"
+  }, 
+  {
+   "source": 1, 
+   "target": 3, 
+   "value": 13.329999999999998, 
+   "class": "passto"
+  }, 
+  {
+   "source": 1, 
+   "target": 2, 
+   "value": 11.260000000000002, 
+   "class": "passto"
+  }, 
+  {
+   "source": 1, 
+   "target": 4, 
+   "value": 7.34, 
+   "class": "passto"
+  }, 
+  {
+   "source": 2, 
+   "target": 4, 
+   "value": 20.369999999999997, 
+   "class": "passto"
+  }, 
+  {
+   "source": 2, 
+   "target": 3, 
+   "value": 21.02, 
+   "class": "passto"
+  }, 
+  {
+   "source": 3, 
+   "target": 4, 
+   "value": 16.380000000000003, 
+   "class": "passto"
+  }
+ ]
+}

@@ -1,0 +1,86 @@
+{
+ "nodes": [
+  {
+   "group": 1, 
+   "name": "Damian Lillard"
+  }, 
+  {
+   "group": 1, 
+   "name": "LaMarcus Aldridge"
+  }, 
+  {
+   "group": 1, 
+   "name": "Nicolas Batum"
+  }, 
+  {
+   "group": 1, 
+   "name": "Robin Lopez"
+  }, 
+  {
+   "group": 1, 
+   "name": "Wesley Matthews"
+  }
+ ], 
+ "links": [
+  {
+   "source": 0, 
+   "target": 2, 
+   "value": 35.94, 
+   "class": "passto"
+  }, 
+  {
+   "source": 0, 
+   "target": 1, 
+   "value": 30.56, 
+   "class": "passto"
+  }, 
+  {
+   "source": 0, 
+   "target": 4, 
+   "value": 19.18, 
+   "class": "passto"
+  }, 
+  {
+   "source": 0, 
+   "target": 3, 
+   "value": 13.219999999999999, 
+   "class": "passto"
+  }, 
+  {
+   "source": 1, 
+   "target": 2, 
+   "value": 16.13, 
+   "class": "passto"
+  }, 
+  {
+   "source": 1, 
+   "target": 4, 
+   "value": 9.83, 
+   "class": "passto"
+  }, 
+  {
+   "source": 1, 
+   "target": 3, 
+   "value": 2.36, 
+   "class": "passto"
+  }, 
+  {
+   "source": 2, 
+   "target": 4, 
+   "value": 9.030000000000001, 
+   "class": "passto"
+  }, 
+  {
+   "source": 2, 
+   "target": 3, 
+   "value": 6.470000000000001, 
+   "class": "passto"
+  }, 
+  {
+   "source": 3, 
+   "target": 4, 
+   "value": 2.6, 
+   "class": "passto"
+  }
+ ]
+}

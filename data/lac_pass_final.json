@@ -1,0 +1,86 @@
+{
+ "nodes": [
+  {
+   "group": 1, 
+   "name": "Blake Griffin"
+  }, 
+  {
+   "group": 1, 
+   "name": "Chris Paul"
+  }, 
+  {
+   "group": 1, 
+   "name": "DeAndre Jordan"
+  }, 
+  {
+   "group": 1, 
+   "name": "JJ Redick"
+  }, 
+  {
+   "group": 1, 
+   "name": "Matt Barnes"
+  }
+ ], 
+ "links": [
+  {
+   "source": 0, 
+   "target": 1, 
+   "value": 55.5, 
+   "class": "passto"
+  }, 
+  {
+   "source": 0, 
+   "target": 3, 
+   "value": 13.55, 
+   "class": "passto"
+  }, 
+  {
+   "source": 0, 
+   "target": 4, 
+   "value": 10.41, 
+   "class": "passto"
+  }, 
+  {
+   "source": 0, 
+   "target": 2, 
+   "value": 6.88, 
+   "class": "passto"
+  }, 
+  {
+   "source": 1, 
+   "target": 3, 
+   "value": 23.4, 
+   "class": "passto"
+  }, 
+  {
+   "source": 1, 
+   "target": 4, 
+   "value": 20.41, 
+   "class": "passto"
+  }, 
+  {
+   "source": 1, 
+   "target": 2, 
+   "value": 31.720000000000002, 
+   "class": "passto"
+  }, 
+  {
+   "source": 2, 
+   "target": 3, 
+   "value": 5.72, 
+   "class": "passto"
+  }, 
+  {
+   "source": 2, 
+   "target": 4, 
+   "value": 3.79, 
+   "class": "passto"
+  }, 
+  {
+   "source": 3, 
+   "target": 4, 
+   "value": 4.35, 
+   "class": "passto"
+  }
+ ]
+}

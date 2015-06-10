@@ -1,0 +1,86 @@
+{
+ "nodes": [
+  {
+   "group": 1, 
+   "name": "Avery Bradley"
+  }, 
+  {
+   "group": 1, 
+   "name": "Brandon Bass"
+  }, 
+  {
+   "group": 1, 
+   "name": "Evan Turner"
+  }, 
+  {
+   "group": 1, 
+   "name": "Marcus Smart"
+  }, 
+  {
+   "group": 1, 
+   "name": "Tyler Zeller"
+  }
+ ], 
+ "links": [
+  {
+   "source": 0, 
+   "target": 2, 
+   "value": 11.55, 
+   "class": "passto"
+  }, 
+  {
+   "source": 0, 
+   "target": 1, 
+   "value": 5.130000000000001, 
+   "class": "passto"
+  }, 
+  {
+   "source": 0, 
+   "target": 3, 
+   "value": 5.93, 
+   "class": "passto"
+  }, 
+  {
+   "source": 0, 
+   "target": 4, 
+   "value": 5.75, 
+   "class": "passto"
+  }, 
+  {
+   "source": 1, 
+   "target": 2, 
+   "value": 15.29, 
+   "class": "passto"
+  }, 
+  {
+   "source": 1, 
+   "target": 3, 
+   "value": 8.43, 
+   "class": "passto"
+  }, 
+  {
+   "source": 1, 
+   "target": 4, 
+   "value": 1.8599999999999999, 
+   "class": "passto"
+  }, 
+  {
+   "source": 2, 
+   "target": 4, 
+   "value": 13.62, 
+   "class": "passto"
+  }, 
+  {
+   "source": 2, 
+   "target": 3, 
+   "value": 9.06, 
+   "class": "passto"
+  }, 
+  {
+   "source": 3, 
+   "target": 4, 
+   "value": 6.96, 
+   "class": "passto"
+  }
+ ]
+}
