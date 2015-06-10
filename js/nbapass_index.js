@@ -2,6 +2,8 @@ var teams = ['gsw', 'hou', 'lac', 'por', 'mem', 'sas', 'dal', 'nop', 'atl', 'cle
 var width = 400, height = 400;
 var color = d3.scale.category20();
 var node_lists = {};
+var static_x = [200, 100, 138.2, 261.8, 300];
+var static_y = [105, 177.7, 295.3, 295.3, 177.7];
 
 //------------------------------------------------------------------------------------------------//
 
@@ -40,7 +42,7 @@ function draw(teamname){
 	      .links(graph.links)
 	      .start();
 
-	  console.log(graph);
+	  // console.log(graph);
 
 	  node_lists[teamname] = graph.nodes;
 
@@ -92,14 +94,16 @@ function draw(teamname){
 	    .enter().append("circle")
 	      .attr("class", "node-" + teamname)
 	      .attr("r", 20)
-	      .style("fill", function(d) { return color(d.group); })
+	      .style("fill", function(d) { 
+	      	return color(d.group); 
+	      })
 	      // .call(force.drag)
 	      .on('mouseover', tip_node.show)
 	      .on('mouseout', tip_node.hide);
 
 	  var padding = 70, // separation between circles
 		    radius=10;
-		function collide(alpha) {
+		/*function collide(alpha) {
 		  var quadtree = d3.geom.quadtree(graph.nodes);
 		  return function(d) {
 		    var rb = 2*radius + padding,
@@ -123,21 +127,33 @@ function draw(teamname){
 		      return x1 > nx2 || x2 < nx1 || y1 > ny2 || y2 < ny1;
 		    });
 		  };
-		}
+		}*/
 
 	  node.append("title")
 	      .text(function(d) { return d.name; });
 
 	  force.on("tick", function() {
+	  	node.attr("cx", function(d) {
+		    	d.fixed = true; 
+		      	// console.log(d);
+		      	d.x = static_x[d.index];
+		      	d.y = static_y[d.index];
+		      	/*console.log(d.index);
+		      	console.log(d.x);*/
+		      	return d.x; 
+	      	})
+	        .attr("cy", function(d) { return d.y; });
+
 	    link.attr("x1", function(d) { return d.source.x; })
 	        .attr("y1", function(d) { return d.source.y; })
 	        .attr("x2", function(d) { return d.target.x; })
 	        .attr("y2", function(d) { return d.target.y; });
 
-	    node.attr("cx", function(d) { return d.x; })
-	        .attr("cy", function(d) { return d.y; });
-	    // node.each(collide(0.5));
+	    
+	    // node.each(collide(3));
 	  });
+
+	  force.start();
 	});
 
 }
