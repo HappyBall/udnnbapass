@@ -39,18 +39,20 @@ body {
 
 	.team-img{
 		float: left;
-		width: 40px;
+		height: 40px;
 	}
 
 	.team-name{
 		float: left;
 		font-size: 18px;
 		margin-top: 8px;
+		/*display: none;*/
 	}
 
 	.team-standing{
 		display: table;
 		margin: auto;
+		color: #a0a0a0;
 	}
 }
 

@@ -18,7 +18,7 @@ $(document).ready(function(){
 		var chartblock = d3.select('.charts-container').append('div').attr('class', 'chart-block');
 		chartblock.append('div').attr('class', 'teamchart').attr('id', teams[i] + '-chart');
 		
-		var teamname_block = chartblock.append('div').attr('class', 'teamname-block');
+		var teamname_block = chartblock.append('div').attr('class', 'teamname-block').attr('id', teams[i] + '-teamname-block');
 
 		var standing_str = '季賽戰績/  ';
 		if(i < 8)
@@ -27,13 +27,13 @@ $(document).ready(function(){
 			standing_str = standing_str + '東區';
 
 		standing_str = standing_str + 'No. ' + (i%8 + 1).toString();
-		chartblock.append('div').attr('class', 'team-standing').attr('id', teams[i] + 'standing').text(standing_str);
+		chartblock.append('div').attr('class', 'team-standing').attr('id', teams[i] + '-standing').text(standing_str);
 		
-		var team_img = teamname_block.append('div').attr('class', 'team-img').attr('id', teams[i] + 'img');
+		var team_img = teamname_block.append('div').attr('class', 'team-img').attr('id', teams[i] + '-img');
 		teamname_block.append('div').attr('class', 'team-name').text(teamname_list[i]);
 
 		team_img.append('img').attr('src', 'img/' + teams[i] + '_logo.svg').attr({
-			'width': '100%'
+			'height': '100%'
 			// 'height': '40px',
 		});
 
