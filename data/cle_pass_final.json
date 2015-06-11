@@ -1,22 +1,112 @@
 {
  "nodes": [
   {
+   "passto_list": [
+    {
+     "pass_times": 5.39, 
+     "player_name": "Kyrie Irving"
+    }, 
+    {
+     "pass_times": 4.43, 
+     "player_name": "LeBron James"
+    }, 
+    {
+     "pass_times": 3.14, 
+     "player_name": "Kevin Love"
+    }, 
+    {
+     "pass_times": 1.07, 
+     "player_name": "Timofey Mozgov"
+    }
+   ], 
    "group": 1, 
    "name": "J.R. Smith"
   }, 
   {
+   "passto_list": [
+    {
+     "pass_times": 14.93, 
+     "player_name": "Kyrie Irving"
+    }, 
+    {
+     "pass_times": 14.66, 
+     "player_name": "LeBron James"
+    }, 
+    {
+     "pass_times": 3.31, 
+     "player_name": "J.R. Smith"
+    }, 
+    {
+     "pass_times": 1.55, 
+     "player_name": "Timofey Mozgov"
+    }
+   ], 
    "group": 1, 
    "name": "Kevin Love"
   }, 
   {
+   "passto_list": [
+    {
+     "pass_times": 13.46, 
+     "player_name": "LeBron James"
+    }, 
+    {
+     "pass_times": 13.31, 
+     "player_name": "Kevin Love"
+    }, 
+    {
+     "pass_times": 5.22, 
+     "player_name": "J.R. Smith"
+    }, 
+    {
+     "pass_times": 2.82, 
+     "player_name": "Timofey Mozgov"
+    }
+   ], 
    "group": 1, 
    "name": "Kyrie Irving"
   }, 
   {
+   "passto_list": [
+    {
+     "pass_times": 14.07, 
+     "player_name": "Kyrie Irving"
+    }, 
+    {
+     "pass_times": 11.53, 
+     "player_name": "Kevin Love"
+    }, 
+    {
+     "pass_times": 4.21, 
+     "player_name": "J.R. Smith"
+    }, 
+    {
+     "pass_times": 2.72, 
+     "player_name": "Timofey Mozgov"
+    }
+   ], 
    "group": 1, 
    "name": "LeBron James"
   }, 
   {
+   "passto_list": [
+    {
+     "pass_times": 5.27, 
+     "player_name": "Kyrie Irving"
+    }, 
+    {
+     "pass_times": 3.52, 
+     "player_name": "LeBron James"
+    }, 
+    {
+     "pass_times": 1.26, 
+     "player_name": "J.R. Smith"
+    }, 
+    {
+     "pass_times": 0.72, 
+     "player_name": "Kevin Love"
+    }
+   ], 
    "group": 1, 
    "name": "Timofey Mozgov"
   }

@@ -1,22 +1,112 @@
 {
  "nodes": [
   {
+   "passto_list": [
+    {
+     "pass_times": 13.64, 
+     "player_name": "Kyle Lowry"
+    }, 
+    {
+     "pass_times": 5.15, 
+     "player_name": "DeMar DeRozan"
+    }, 
+    {
+     "pass_times": 2.09, 
+     "player_name": "Terrence Ross"
+    }, 
+    {
+     "pass_times": 1.6, 
+     "player_name": "Jonas Valanciunas"
+    }
+   ], 
    "group": 1, 
    "name": "Amir Johnson"
   }, 
   {
+   "passto_list": [
+    {
+     "pass_times": 7.93, 
+     "player_name": "Kyle Lowry"
+    }, 
+    {
+     "pass_times": 5.03, 
+     "player_name": "Amir Johnson"
+    }, 
+    {
+     "pass_times": 3.67, 
+     "player_name": "Terrence Ross"
+    }, 
+    {
+     "pass_times": 3.02, 
+     "player_name": "Jonas Valanciunas"
+    }
+   ], 
    "group": 1, 
    "name": "DeMar DeRozan"
   }, 
   {
+   "passto_list": [
+    {
+     "pass_times": 11.5, 
+     "player_name": "Kyle Lowry"
+    }, 
+    {
+     "pass_times": 2.21, 
+     "player_name": "DeMar DeRozan"
+    }, 
+    {
+     "pass_times": 1.38, 
+     "player_name": "Amir Johnson"
+    }, 
+    {
+     "pass_times": 1.29, 
+     "player_name": "Terrence Ross"
+    }
+   ], 
    "group": 1, 
    "name": "Jonas Valanciunas"
   }, 
   {
+   "passto_list": [
+    {
+     "pass_times": 12.76, 
+     "player_name": "DeMar DeRozan"
+    }, 
+    {
+     "pass_times": 9.23, 
+     "player_name": "Amir Johnson"
+    }, 
+    {
+     "pass_times": 6.94, 
+     "player_name": "Terrence Ross"
+    }, 
+    {
+     "pass_times": 6.61, 
+     "player_name": "Jonas Valanciunas"
+    }
+   ], 
    "group": 1, 
    "name": "Kyle Lowry"
   }, 
   {
+   "passto_list": [
+    {
+     "pass_times": 4.76, 
+     "player_name": "Kyle Lowry"
+    }, 
+    {
+     "pass_times": 2.12, 
+     "player_name": "DeMar DeRozan"
+    }, 
+    {
+     "pass_times": 1.38, 
+     "player_name": "Amir Johnson"
+    }, 
+    {
+     "pass_times": 1.16, 
+     "player_name": "Jonas Valanciunas"
+    }
+   ], 
    "group": 1, 
    "name": "Terrence Ross"
   }

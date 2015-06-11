@@ -1,22 +1,112 @@
 {
  "nodes": [
   {
+   "passto_list": [
+    {
+     "pass_times": 7.86, 
+     "player_name": "Monta Ellis"
+    }, 
+    {
+     "pass_times": 5.45, 
+     "player_name": "Rajon Rondo"
+    }, 
+    {
+     "pass_times": 3.35, 
+     "player_name": "Dirk Nowitzki"
+    }, 
+    {
+     "pass_times": 3.29, 
+     "player_name": "Tyson Chandler"
+    }
+   ], 
    "group": 1, 
    "name": "Chandler Parsons"
   }, 
   {
+   "passto_list": [
+    {
+     "pass_times": 7.58, 
+     "player_name": "Rajon Rondo"
+    }, 
+    {
+     "pass_times": 6.48, 
+     "player_name": "Monta Ellis"
+    }, 
+    {
+     "pass_times": 2.73, 
+     "player_name": "Chandler Parsons"
+    }, 
+    {
+     "pass_times": 2.08, 
+     "player_name": "Tyson Chandler"
+    }
+   ], 
    "group": 1, 
    "name": "Dirk Nowitzki"
   }, 
   {
+   "passto_list": [
+    {
+     "pass_times": 7.7, 
+     "player_name": "Dirk Nowitzki"
+    }, 
+    {
+     "pass_times": 6.48, 
+     "player_name": "Rajon Rondo"
+    }, 
+    {
+     "pass_times": 5.21, 
+     "player_name": "Chandler Parsons"
+    }, 
+    {
+     "pass_times": 3.96, 
+     "player_name": "Tyson Chandler"
+    }
+   ], 
    "group": 1, 
    "name": "Monta Ellis"
   }, 
   {
+   "passto_list": [
+    {
+     "pass_times": 11.93, 
+     "player_name": "Monta Ellis"
+    }, 
+    {
+     "pass_times": 7.28, 
+     "player_name": "Dirk Nowitzki"
+    }, 
+    {
+     "pass_times": 5.9, 
+     "player_name": "Chandler Parsons"
+    }, 
+    {
+     "pass_times": 3.16, 
+     "player_name": "Tyson Chandler"
+    }
+   ], 
    "group": 1, 
    "name": "Rajon Rondo"
   }, 
   {
+   "passto_list": [
+    {
+     "pass_times": 7.15, 
+     "player_name": "Monta Ellis"
+    }, 
+    {
+     "pass_times": 6.49, 
+     "player_name": "Rajon Rondo"
+    }, 
+    {
+     "pass_times": 4.13, 
+     "player_name": "Chandler Parsons"
+    }, 
+    {
+     "pass_times": 1.83, 
+     "player_name": "Dirk Nowitzki"
+    }
+   ], 
    "group": 1, 
    "name": "Tyson Chandler"
   }

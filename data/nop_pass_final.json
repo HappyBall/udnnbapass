@@ -1,22 +1,112 @@
 {
  "nodes": [
   {
+   "passto_list": [
+    {
+     "pass_times": 12.19, 
+     "player_name": "Tyreke Evans"
+    }, 
+    {
+     "pass_times": 3.84, 
+     "player_name": "Eric Gordon"
+    }, 
+    {
+     "pass_times": 1.66, 
+     "player_name": "Omer Asik"
+    }, 
+    {
+     "pass_times": 1.06, 
+     "player_name": "Quincy Pondexter"
+    }
+   ], 
    "group": 1, 
    "name": "Anthony Davis"
   }, 
   {
+   "passto_list": [
+    {
+     "pass_times": 8.82, 
+     "player_name": "Tyreke Evans"
+    }, 
+    {
+     "pass_times": 5.54, 
+     "player_name": "Anthony Davis"
+    }, 
+    {
+     "pass_times": 2.75, 
+     "player_name": "Omer Asik"
+    }, 
+    {
+     "pass_times": 2.07, 
+     "player_name": "Quincy Pondexter"
+    }
+   ], 
    "group": 1, 
    "name": "Eric Gordon"
   }, 
   {
+   "passto_list": [
+    {
+     "pass_times": 12.21, 
+     "player_name": "Tyreke Evans"
+    }, 
+    {
+     "pass_times": 3.3, 
+     "player_name": "Eric Gordon"
+    }, 
+    {
+     "pass_times": 1.63, 
+     "player_name": "Anthony Davis"
+    }, 
+    {
+     "pass_times": 1.09, 
+     "player_name": "Quincy Pondexter"
+    }
+   ], 
    "group": 1, 
    "name": "Omer Asik"
   }, 
   {
+   "passto_list": [
+    {
+     "pass_times": 4.81, 
+     "player_name": "Tyreke Evans"
+    }, 
+    {
+     "pass_times": 1.89, 
+     "player_name": "Eric Gordon"
+    }, 
+    {
+     "pass_times": 1.54, 
+     "player_name": "Anthony Davis"
+    }, 
+    {
+     "pass_times": 1.16, 
+     "player_name": "Omer Asik"
+    }
+   ], 
    "group": 1, 
    "name": "Quincy Pondexter"
   }, 
   {
+   "passto_list": [
+    {
+     "pass_times": 10.59, 
+     "player_name": "Anthony Davis"
+    }, 
+    {
+     "pass_times": 10.57, 
+     "player_name": "Eric Gordon"
+    }, 
+    {
+     "pass_times": 5.06, 
+     "player_name": "Omer Asik"
+    }, 
+    {
+     "pass_times": 3.11, 
+     "player_name": "Quincy Pondexter"
+    }
+   ], 
    "group": 1, 
    "name": "Tyreke Evans"
   }

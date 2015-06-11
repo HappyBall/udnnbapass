@@ -1,22 +1,112 @@
 {
  "nodes": [
   {
+   "passto_list": [
+    {
+     "pass_times": 5.6, 
+     "player_name": "Michael Carter-Williams"
+    }, 
+    {
+     "pass_times": 2.84, 
+     "player_name": "Khris Middleton"
+    }, 
+    {
+     "pass_times": 2.39, 
+     "player_name": "Giannis Antetokounmpo"
+    }, 
+    {
+     "pass_times": 1.0, 
+     "player_name": "Zaza Pachulia"
+    }
+   ], 
    "group": 1, 
    "name": "Ersan Ilyasova"
   }, 
   {
+   "passto_list": [
+    {
+     "pass_times": 3.69, 
+     "player_name": "Michael Carter-Williams"
+    }, 
+    {
+     "pass_times": 2.99, 
+     "player_name": "Khris Middleton"
+    }, 
+    {
+     "pass_times": 2.63, 
+     "player_name": "Zaza Pachulia"
+    }, 
+    {
+     "pass_times": 1.71, 
+     "player_name": "Ersan Ilyasova"
+    }
+   ], 
    "group": 1, 
    "name": "Giannis Antetokounmpo"
   }, 
   {
+   "passto_list": [
+    {
+     "pass_times": 3.71, 
+     "player_name": "Zaza Pachulia"
+    }, 
+    {
+     "pass_times": 3.06, 
+     "player_name": "Giannis Antetokounmpo"
+    }, 
+    {
+     "pass_times": 3.01, 
+     "player_name": "Michael Carter-Williams"
+    }, 
+    {
+     "pass_times": 1.87, 
+     "player_name": "Ersan Ilyasova"
+    }
+   ], 
    "group": 1, 
    "name": "Khris Middleton"
   }, 
   {
+   "passto_list": [
+    {
+     "pass_times": 4.17, 
+     "player_name": "Khris Middleton"
+    }, 
+    {
+     "pass_times": 3.86, 
+     "player_name": "Giannis Antetokounmpo"
+    }, 
+    {
+     "pass_times": 3.32, 
+     "player_name": "Zaza Pachulia"
+    }, 
+    {
+     "pass_times": 3.09, 
+     "player_name": "Ersan Ilyasova"
+    }
+   ], 
    "group": 1, 
    "name": "Michael Carter-Williams"
   }, 
   {
+   "passto_list": [
+    {
+     "pass_times": 3.85, 
+     "player_name": "Khris Middleton"
+    }, 
+    {
+     "pass_times": 3.64, 
+     "player_name": "Michael Carter-Williams"
+    }, 
+    {
+     "pass_times": 3.17, 
+     "player_name": "Giannis Antetokounmpo"
+    }, 
+    {
+     "pass_times": 2.08, 
+     "player_name": "Ersan Ilyasova"
+    }
+   ], 
    "group": 1, 
    "name": "Zaza Pachulia"
   }

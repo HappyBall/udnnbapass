@@ -1,22 +1,112 @@
 {
  "nodes": [
   {
+   "passto_list": [
+    {
+     "pass_times": 16.01, 
+     "player_name": "Stephen Curry"
+    }, 
+    {
+     "pass_times": 5.43, 
+     "player_name": "Klay Thompson"
+    }, 
+    {
+     "pass_times": 4.04, 
+     "player_name": "Draymond Green"
+    }, 
+    {
+     "pass_times": 3.19, 
+     "player_name": "Harrison Barnes"
+    }
+   ], 
    "group": 1, 
    "name": "Andrew Bogut"
   }, 
   {
+   "passto_list": [
+    {
+     "pass_times": 22.71, 
+     "player_name": "Stephen Curry"
+    }, 
+    {
+     "pass_times": 7.78, 
+     "player_name": "Klay Thompson"
+    }, 
+    {
+     "pass_times": 4.2, 
+     "player_name": "Harrison Barnes"
+    }, 
+    {
+     "pass_times": 2.48, 
+     "player_name": "Andrew Bogut"
+    }
+   ], 
    "group": 1, 
    "name": "Draymond Green"
   }, 
   {
+   "passto_list": [
+    {
+     "pass_times": 7.45, 
+     "player_name": "Stephen Curry"
+    }, 
+    {
+     "pass_times": 3.7, 
+     "player_name": "Klay Thompson"
+    }, 
+    {
+     "pass_times": 3.45, 
+     "player_name": "Draymond Green"
+    }, 
+    {
+     "pass_times": 1.89, 
+     "player_name": "Andrew Bogut"
+    }
+   ], 
    "group": 1, 
    "name": "Harrison Barnes"
   }, 
   {
+   "passto_list": [
+    {
+     "pass_times": 5.3, 
+     "player_name": "Draymond Green"
+    }, 
+    {
+     "pass_times": 4.9, 
+     "player_name": "Stephen Curry"
+    }, 
+    {
+     "pass_times": 3.58, 
+     "player_name": "Andrew Bogut"
+    }, 
+    {
+     "pass_times": 2.14, 
+     "player_name": "Harrison Barnes"
+    }
+   ], 
    "group": 1, 
    "name": "Klay Thompson"
   }, 
   {
+   "passto_list": [
+    {
+     "pass_times": 14.55, 
+     "player_name": "Draymond Green"
+    }, 
+    {
+     "pass_times": 10.74, 
+     "player_name": "Klay Thompson"
+    }, 
+    {
+     "pass_times": 7.85, 
+     "player_name": "Andrew Bogut"
+    }, 
+    {
+     "pass_times": 7.2, 
+     "player_name": "Harrison Barnes"
+    }
+   ], 
    "group": 1, 
    "name": "Stephen Curry"
   }

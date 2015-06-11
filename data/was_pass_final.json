@@ -1,22 +1,112 @@
 {
  "nodes": [
   {
+   "passto_list": [
+    {
+     "pass_times": 10.95, 
+     "player_name": "John Wall"
+    }, 
+    {
+     "pass_times": 6.25, 
+     "player_name": "Nene"
+    }, 
+    {
+     "pass_times": 5.73, 
+     "player_name": "Marcin Gortat"
+    }, 
+    {
+     "pass_times": 2.65, 
+     "player_name": "Paul Pierce"
+    }
+   ], 
    "group": 1, 
    "name": "Bradley Beal"
   }, 
   {
+   "passto_list": [
+    {
+     "pass_times": 17.62, 
+     "player_name": "Bradley Beal"
+    }, 
+    {
+     "pass_times": 12.32, 
+     "player_name": "Paul Pierce"
+    }, 
+    {
+     "pass_times": 9.49, 
+     "player_name": "Marcin Gortat"
+    }, 
+    {
+     "pass_times": 9.27, 
+     "player_name": "Nene"
+    }
+   ], 
    "group": 1, 
    "name": "John Wall"
   }, 
   {
+   "passto_list": [
+    {
+     "pass_times": 23.85, 
+     "player_name": "John Wall"
+    }, 
+    {
+     "pass_times": 3.26, 
+     "player_name": "Bradley Beal"
+    }, 
+    {
+     "pass_times": 2.77, 
+     "player_name": "Paul Pierce"
+    }, 
+    {
+     "pass_times": 0.94, 
+     "player_name": "Nene"
+    }
+   ], 
    "group": 1, 
    "name": "Marcin Gortat"
   }, 
   {
+   "passto_list": [
+    {
+     "pass_times": 12.73, 
+     "player_name": "John Wall"
+    }, 
+    {
+     "pass_times": 3.36, 
+     "player_name": "Bradley Beal"
+    }, 
+    {
+     "pass_times": 2.97, 
+     "player_name": "Paul Pierce"
+    }, 
+    {
+     "pass_times": 1.78, 
+     "player_name": "Marcin Gortat"
+    }
+   ], 
    "group": 1, 
    "name": "Nene"
   }, 
   {
+   "passto_list": [
+    {
+     "pass_times": 9.68, 
+     "player_name": "John Wall"
+    }, 
+    {
+     "pass_times": 3.29, 
+     "player_name": "Marcin Gortat"
+    }, 
+    {
+     "pass_times": 2.56, 
+     "player_name": "Nene"
+    }, 
+    {
+     "pass_times": 2.27, 
+     "player_name": "Bradley Beal"
+    }
+   ], 
    "group": 1, 
    "name": "Paul Pierce"
   }

@@ -1,22 +1,112 @@
 {
  "nodes": [
   {
+   "passto_list": [
+    {
+     "pass_times": 8.09, 
+     "player_name": "Tony Parker"
+    }, 
+    {
+     "pass_times": 5.54, 
+     "player_name": "Tim Duncan"
+    }, 
+    {
+     "pass_times": 2.7, 
+     "player_name": "Kawhi Leonard"
+    }, 
+    {
+     "pass_times": 2.28, 
+     "player_name": "Tiago Splitter"
+    }
+   ], 
    "group": 1, 
    "name": "Danny Green"
   }, 
   {
+   "passto_list": [
+    {
+     "pass_times": 8.91, 
+     "player_name": "Tony Parker"
+    }, 
+    {
+     "pass_times": 4.92, 
+     "player_name": "Tim Duncan"
+    }, 
+    {
+     "pass_times": 3.69, 
+     "player_name": "Danny Green"
+    }, 
+    {
+     "pass_times": 1.48, 
+     "player_name": "Tiago Splitter"
+    }
+   ], 
    "group": 1, 
    "name": "Kawhi Leonard"
   }, 
   {
+   "passto_list": [
+    {
+     "pass_times": 6.81, 
+     "player_name": "Tony Parker"
+    }, 
+    {
+     "pass_times": 2.96, 
+     "player_name": "Danny Green"
+    }, 
+    {
+     "pass_times": 1.87, 
+     "player_name": "Kawhi Leonard"
+    }, 
+    {
+     "pass_times": 1.62, 
+     "player_name": "Tim Duncan"
+    }
+   ], 
    "group": 1, 
    "name": "Tiago Splitter"
   }, 
   {
+   "passto_list": [
+    {
+     "pass_times": 15.83, 
+     "player_name": "Tony Parker"
+    }, 
+    {
+     "pass_times": 5.34, 
+     "player_name": "Danny Green"
+    }, 
+    {
+     "pass_times": 4.49, 
+     "player_name": "Kawhi Leonard"
+    }, 
+    {
+     "pass_times": 1.75, 
+     "player_name": "Tiago Splitter"
+    }
+   ], 
    "group": 1, 
    "name": "Tim Duncan"
   }, 
   {
+   "passto_list": [
+    {
+     "pass_times": 13.13, 
+     "player_name": "Tim Duncan"
+    }, 
+    {
+     "pass_times": 9.07, 
+     "player_name": "Danny Green"
+    }, 
+    {
+     "pass_times": 8.63, 
+     "player_name": "Kawhi Leonard"
+    }, 
+    {
+     "pass_times": 2.87, 
+     "player_name": "Tiago Splitter"
+    }
+   ], 
    "group": 1, 
    "name": "Tony Parker"
   }

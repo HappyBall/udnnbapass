@@ -1,9 +1,10 @@
 var teams = ['gsw', 'hou', 'lac', 'por', 'mem', 'sas', 'dal', 'nop', 'atl', 'cle', 'chi', 'tor', 'was', 'mil', 'bos', 'bkn'];
-var width = 400, height = 400;
-var color = d3.scale.category20();
+var width = '100%', height = 200;
+// var color = d3.scale.category20();
 var node_lists = {};
-var static_x = [200, 100, 138.2, 261.8, 300];
-var static_y = [105, 177.7, 295.3, 295.3, 177.7];
+var para = 2;
+var static_x = [160/para, 60/para, 98.2/para, 221.8/para, 260/para];
+var static_y = [105/para, 177.7/para, 295.3/para, 295.3/para, 177.7/para];
 
 //------------------------------------------------------------------------------------------------//
 
@@ -13,9 +14,9 @@ $(document).ready(function(){
 
 	
 	for (var i = 0; i < teams.length; i++){
-		var chartblock = d3.select('body').append('div').attr('class', 'chart-block');
+		var chartblock = d3.select('.charts-container').append('div').attr('class', 'chart-block');
 		chartblock.append('div').attr('class', 'teamname').text(teams[i]);
-		chartblock.append('div').attr('class', 'teamchart').attr('id', teams[i] + '-container');
+		chartblock.append('div').attr('class', 'teamchart').attr('id', teams[i] + '-chart');
 		draw(teams[i]);
 	}
 	// draw('cle');
@@ -28,10 +29,10 @@ function draw(teamname){
 
 	var force = d3.layout.force()
 	    .charge(-120)
-	    .linkDistance(200)
+	    .linkDistance(100)
 	    .size([width, height]);
 
-	var svg = d3.select("#" + teamname + "-container").append("svg")
+	var svg = d3.select("#" + teamname + "-chart").append("svg")
 	    .attr("width", width)
 	    .attr("height", height);
 
@@ -46,14 +47,18 @@ function draw(teamname){
 
 	  node_lists[teamname] = graph.nodes;
 
-	  tip = d3.tip().attr('class', 'd3-tip').html(function(d) { 
-	  	// console.log(d); 
-	  	return node_lists[teamname][d['source']['index']]['name'] + '  ' + d['class'] + '  ' + node_lists[teamname][d['target']['index']]['name'] ; 
+	  tip = d3.tip().attr('class', 'd3-tip').direction('s').html(function(d) { 
+
+	  	return '球在 ' + d.source.name + ' 和 ' + d.target.name + ' 之間平均傳導了 ' +  formatFloat(d.value, 2) + '次'; 
 	  });
 
-	  tip_node = d3.tip().attr('class', 'd3-tip').html(function(d){
+	  tip_node = d3.tip().attr('class', 'd3-tip').direction('s').html(function(d){
 	  	// console.log(d);
-	  	return d.name;
+	  	var str = '名字： ' + d.name + '<br>傳球分佈：<br>';
+	  	for (var i = 0; i < d.passto_list.length; i++){
+	  		str += d.passto_list[i]['player_name'] + '： ' + d.passto_list[i]['pass_times'] + ' 次<br>';
+	  	}
+	  	return str;
 	  })
 
 	  svg.call(tip);
@@ -79,12 +84,9 @@ function draw(teamname){
 	    .enter().append("line")
 	      .attr("class", "link-" + teamname)
 	      .style("marker-end",  "url(#suit)") // Modified line 
-	      .style("stroke-width", function(d) { return d.value/2; })
+	      .style("stroke-width", function(d) { return d.value/4; })
 	      .style("stroke", function(d){
-	      	if(d['class'] == 'passto')
-	      		return 'red';
-	      	else
-	      		return 'blue';
+	      	return '#BDF249';
 	      })
 	      .on('mouseover', tip.show)
 	      .on('mouseout', tip.hide);
@@ -93,9 +95,9 @@ function draw(teamname){
 	      .data(graph.nodes)
 	    .enter().append("circle")
 	      .attr("class", "node-" + teamname)
-	      .attr("r", 20)
+	      .attr("r", 10)
 	      .style("fill", function(d) { 
-	      	return color(d.group); 
+	      	return '#aaaaaa'; 
 	      })
 	      // .call(force.drag)
 	      .on('mouseover', tip_node.show)
@@ -129,12 +131,12 @@ function draw(teamname){
 		  };
 		}*/
 
-	  node.append("title")
-	      .text(function(d) { return d.name; });
+	  /*node.append("title")
+	      .text(function(d) { return d.name; });*/
 
 	  force.on("tick", function() {
 	  	node.attr("cx", function(d) {
-		    	d.fixed = true; 
+		    	// d.fixed = true; 
 		      	// console.log(d);
 		      	d.x = static_x[d.index];
 		      	d.y = static_y[d.index];
@@ -156,4 +158,10 @@ function draw(teamname){
 	  force.start();
 	});
 
+}
+
+function formatFloat(num, pos)
+{
+  var size = Math.pow(10, pos);
+  return Math.round(num * size) / size;
 }

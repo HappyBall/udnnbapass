@@ -1,22 +1,112 @@
 {
  "nodes": [
   {
+   "passto_list": [
+    {
+     "pass_times": 16.56, 
+     "player_name": "Nicolas Batum"
+    }, 
+    {
+     "pass_times": 11.93, 
+     "player_name": "LaMarcus Aldridge"
+    }, 
+    {
+     "pass_times": 9.65, 
+     "player_name": "Wesley Matthews"
+    }, 
+    {
+     "pass_times": 4.1, 
+     "player_name": "Robin Lopez"
+    }
+   ], 
    "group": 1, 
    "name": "Damian Lillard"
   }, 
   {
+   "passto_list": [
+    {
+     "pass_times": 18.63, 
+     "player_name": "Damian Lillard"
+    }, 
+    {
+     "pass_times": 5.61, 
+     "player_name": "Nicolas Batum"
+    }, 
+    {
+     "pass_times": 3.48, 
+     "player_name": "Wesley Matthews"
+    }, 
+    {
+     "pass_times": 0.72, 
+     "player_name": "Robin Lopez"
+    }
+   ], 
    "group": 1, 
    "name": "LaMarcus Aldridge"
   }, 
   {
+   "passto_list": [
+    {
+     "pass_times": 19.38, 
+     "player_name": "Damian Lillard"
+    }, 
+    {
+     "pass_times": 10.52, 
+     "player_name": "LaMarcus Aldridge"
+    }, 
+    {
+     "pass_times": 4.63, 
+     "player_name": "Wesley Matthews"
+    }, 
+    {
+     "pass_times": 3.37, 
+     "player_name": "Robin Lopez"
+    }
+   ], 
    "group": 1, 
    "name": "Nicolas Batum"
   }, 
   {
+   "passto_list": [
+    {
+     "pass_times": 9.12, 
+     "player_name": "Damian Lillard"
+    }, 
+    {
+     "pass_times": 3.1, 
+     "player_name": "Nicolas Batum"
+    }, 
+    {
+     "pass_times": 1.64, 
+     "player_name": "LaMarcus Aldridge"
+    }, 
+    {
+     "pass_times": 1.07, 
+     "player_name": "Wesley Matthews"
+    }
+   ], 
    "group": 1, 
    "name": "Robin Lopez"
   }, 
   {
+   "passto_list": [
+    {
+     "pass_times": 9.53, 
+     "player_name": "Damian Lillard"
+    }, 
+    {
+     "pass_times": 6.35, 
+     "player_name": "LaMarcus Aldridge"
+    }, 
+    {
+     "pass_times": 4.4, 
+     "player_name": "Nicolas Batum"
+    }, 
+    {
+     "pass_times": 1.53, 
+     "player_name": "Robin Lopez"
+    }
+   ], 
    "group": 1, 
    "name": "Wesley Matthews"
   }

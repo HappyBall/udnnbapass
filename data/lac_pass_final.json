@@ -1,22 +1,112 @@
 {
  "nodes": [
   {
+   "passto_list": [
+    {
+     "pass_times": 29.49, 
+     "player_name": "Chris Paul"
+    }, 
+    {
+     "pass_times": 7.61, 
+     "player_name": "JJ Redick"
+    }, 
+    {
+     "pass_times": 5.42, 
+     "player_name": "Matt Barnes"
+    }, 
+    {
+     "pass_times": 3.48, 
+     "player_name": "DeAndre Jordan"
+    }
+   ], 
    "group": 1, 
    "name": "Blake Griffin"
   }, 
   {
+   "passto_list": [
+    {
+     "pass_times": 26.01, 
+     "player_name": "Blake Griffin"
+    }, 
+    {
+     "pass_times": 15.09, 
+     "player_name": "JJ Redick"
+    }, 
+    {
+     "pass_times": 8.73, 
+     "player_name": "Matt Barnes"
+    }, 
+    {
+     "pass_times": 6.87, 
+     "player_name": "DeAndre Jordan"
+    }
+   ], 
    "group": 1, 
    "name": "Chris Paul"
   }, 
   {
+   "passto_list": [
+    {
+     "pass_times": 24.85, 
+     "player_name": "Chris Paul"
+    }, 
+    {
+     "pass_times": 3.4, 
+     "player_name": "Blake Griffin"
+    }, 
+    {
+     "pass_times": 2.84, 
+     "player_name": "JJ Redick"
+    }, 
+    {
+     "pass_times": 1.91, 
+     "player_name": "Matt Barnes"
+    }
+   ], 
    "group": 1, 
    "name": "DeAndre Jordan"
   }, 
   {
+   "passto_list": [
+    {
+     "pass_times": 8.31, 
+     "player_name": "Chris Paul"
+    }, 
+    {
+     "pass_times": 5.94, 
+     "player_name": "Blake Griffin"
+    }, 
+    {
+     "pass_times": 2.88, 
+     "player_name": "DeAndre Jordan"
+    }, 
+    {
+     "pass_times": 2.21, 
+     "player_name": "Matt Barnes"
+    }
+   ], 
    "group": 1, 
    "name": "JJ Redick"
   }, 
   {
+   "passto_list": [
+    {
+     "pass_times": 11.68, 
+     "player_name": "Chris Paul"
+    }, 
+    {
+     "pass_times": 4.99, 
+     "player_name": "Blake Griffin"
+    }, 
+    {
+     "pass_times": 2.14, 
+     "player_name": "JJ Redick"
+    }, 
+    {
+     "pass_times": 1.88, 
+     "player_name": "DeAndre Jordan"
+    }
+   ], 
    "group": 1, 
    "name": "Matt Barnes"
   }
