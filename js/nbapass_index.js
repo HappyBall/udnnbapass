@@ -67,19 +67,39 @@ function draw(teamname){
 
 	  node_lists[teamname] = graph.nodes;
 
-	  tip = d3.tip().attr('class', 'd3-tip').direction('s').html(function(d) { 
+	  tip = d3.tip().attr('class', 'd3-tip')
+			.html(function(d) { 
+	  			return '球在 ' + d.source.name + ' 和 ' + d.target.name + ' 之間平均傳導了 ' +  formatFloat(d.value, 2) + '次'; 
+	  		})
+	  		.offset(function() {
+		  		return [10, this.getBBox().width / 2];
+			})
+			.direction(function(){
+	  			if ($(this).offset().left + this.getBBox().width / 2 > $(window).width)
+	  				return 'w';
+	  			else if($(this).offset().left - this.getBBox().width / 2 < 0)
+	  				return 'e';
+	  			else
+	  				return 's';
+	  		});
 
-	  	return '球在 ' + d.source.name + ' 和 ' + d.target.name + ' 之間平均傳導了 ' +  formatFloat(d.value, 2) + '次'; 
-	  });
-
-	  tip_node = d3.tip().attr('class', 'd3-tip').direction('s').html(function(d){
-	  	// console.log(d);
-	  	var str = '名字： ' + d.name + '<br>傳球分佈<br>';
-	  	for (var i = 0; i < d.passto_list.length; i++){
-	  		str += d.passto_list[i]['player_name'] + '： ' + d.passto_list[i]['pass_times'] + ' 次<br>';
-	  	}
-	  	return str;
-	  })
+	  tip_node = d3.tip().attr('class', 'd3-tip')
+		  	.html(function(d){
+		  		// console.log(d);
+			  	var str = '名字： ' + d.name + '<br>傳球分佈<br>';
+			  	for (var i = 0; i < d.passto_list.length; i++){
+			  		str += d.passto_list[i]['player_name'] + '： ' + d.passto_list[i]['pass_times'] + ' 次<br>';
+			  	}
+			  	return str;
+		  	})
+		  	.direction(function(){
+	  			if ($(this).offset().left + this.getBBox().width / 2 > $(window).width)
+	  				return 'w';
+	  			else if($(this).offset().left - this.getBBox().width / 2 < 0)
+	  				return 'e';
+	  			else
+	  				return 's';
+	  		})
 
 	  svg.call(tip);
 	  svg.call(tip_node);

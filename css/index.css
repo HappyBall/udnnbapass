@@ -22,7 +22,7 @@ body {
 	.chart-block{
 		float: left;
 		width: 16%;
-		margin-top: 40px;
+		margin-top: 60px;
 	}
 
 	.d3-tip{
@@ -47,6 +47,7 @@ body {
 		font-size: 18px;
 		margin-top: 8px;
 		/*display: none;*/
+		/*color: white;*/
 	}
 
 	.team-standing{
