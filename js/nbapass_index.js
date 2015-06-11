@@ -82,19 +82,19 @@ function draw(teamname){
 	  var link = svg.selectAll(".link-" + teamname)
 	      .data(graph.links)
 	    .enter().append("line")
-	      .attr("class", "link-" + teamname)
+	      .attr("class", "link link-" + teamname)
 	      .style("marker-end",  "url(#suit)") // Modified line 
 	      .style("stroke-width", function(d) { return d.value/4; })
-	      .style("stroke", function(d){
+	      /*.style("stroke", function(d){
 	      	return '#4545F4';
-	      })
+	      })*/
 	      .on('mouseover', tip.show)
 	      .on('mouseout', tip.hide);
 
 	  var node = svg.selectAll(".node-" + teamname)
 	      .data(graph.nodes)
 	    .enter().append("circle")
-	      .attr("class", "node-" + teamname)
+	      .attr("class", "node node-" + teamname)
 	      .attr("r", 8)
 	      .style("fill", function(d) { 
 	      	return '#aaaaaa'; 

@@ -15,8 +15,8 @@ body {
 	}
 
 	.link {
-	  /*stroke: #999;*/
-	  stroke-opacity: .6;
+	  stroke: #4545F4;
+	  /*stroke-opacity: .6;*/
 	}
 
 	.chart-block{
@@ -28,7 +28,7 @@ body {
 		padding: 12px;
 		background: #fff;
 		z-index: 20;
-		border: 1px solid black;
+		border: 2px solid #4545F4;
 	}
 }
 
