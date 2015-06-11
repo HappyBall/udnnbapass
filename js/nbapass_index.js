@@ -54,7 +54,7 @@ function draw(teamname){
 
 	  tip_node = d3.tip().attr('class', 'd3-tip').direction('s').html(function(d){
 	  	// console.log(d);
-	  	var str = '名字： ' + d.name + '<br>傳球分佈：<br>';
+	  	var str = '名字： ' + d.name + '<br>傳球分佈<br>';
 	  	for (var i = 0; i < d.passto_list.length; i++){
 	  		str += d.passto_list[i]['player_name'] + '： ' + d.passto_list[i]['pass_times'] + ' 次<br>';
 	  	}
@@ -86,7 +86,7 @@ function draw(teamname){
 	      .style("marker-end",  "url(#suit)") // Modified line 
 	      .style("stroke-width", function(d) { return d.value/4; })
 	      .style("stroke", function(d){
-	      	return '#BDF249';
+	      	return '#4545F4';
 	      })
 	      .on('mouseover', tip.show)
 	      .on('mouseout', tip.hide);
@@ -95,7 +95,7 @@ function draw(teamname){
 	      .data(graph.nodes)
 	    .enter().append("circle")
 	      .attr("class", "node-" + teamname)
-	      .attr("r", 10)
+	      .attr("r", 8)
 	      .style("fill", function(d) { 
 	      	return '#aaaaaa'; 
 	      })
