@@ -1,10 +1,11 @@
 var teams = ['gsw', 'hou', 'lac', 'por', 'mem', 'sas', 'dal', 'nop', 'atl', 'cle', 'chi', 'tor', 'was', 'mil', 'bos', 'bkn'];
-var width = '100%', height = 200;
+var teamname_list = ['金州勇士', '休士頓火箭', '洛杉磯快艇', '波特蘭拓荒者', '孟斐斯灰熊', '聖安東尼奧馬刺', '達拉斯小牛', '紐奧良鵜鶘', '亞特蘭大老鷹', '克里夫蘭騎士', '芝加哥公牛', '多倫多暴龍', '華盛頓巫師', '密爾瓦基公鹿', '波士頓賽爾提克', '布魯克林籃網'];
+var width = '100%', height = 120;
 // var color = d3.scale.category20();
 var node_lists = {};
 var para = 2;
-var static_x = [160/para, 60/para, 98.2/para, 221.8/para, 260/para];
-var static_y = [105/para, 177.7/para, 295.3/para, 295.3/para, 177.7/para];
+var static_x = [170/para, 70/para, 108.2/para, 231.8/para, 270/para];
+var static_y = [25/para, 97.7/para, 215.3/para, 215.3/para, 97.7/para];
 
 //------------------------------------------------------------------------------------------------//
 
@@ -15,8 +16,27 @@ $(document).ready(function(){
 	
 	for (var i = 0; i < teams.length; i++){
 		var chartblock = d3.select('.charts-container').append('div').attr('class', 'chart-block');
-		chartblock.append('div').attr('class', 'teamname').text(teams[i]);
 		chartblock.append('div').attr('class', 'teamchart').attr('id', teams[i] + '-chart');
+		
+		var teamname_block = chartblock.append('div').attr('class', 'teamname-block');
+
+		var standing_str = '季賽戰績/  ';
+		if(i < 8)
+			standing_str = standing_str + '西區';
+		else
+			standing_str = standing_str + '東區';
+
+		standing_str = standing_str + 'No. ' + (i%8 + 1).toString();
+		chartblock.append('div').attr('class', 'team-standing').attr('id', teams[i] + 'standing').text(standing_str);
+		
+		var team_img = teamname_block.append('div').attr('class', 'team-img').attr('id', teams[i] + 'img');
+		teamname_block.append('div').attr('class', 'team-name').text(teamname_list[i]);
+
+		team_img.append('img').attr('src', 'img/' + teams[i] + '_logo.svg').attr({
+			'width': '100%'
+			// 'height': '40px',
+		});
+
 		draw(teams[i]);
 	}
 	// draw('cle');
@@ -84,7 +104,7 @@ function draw(teamname){
 	    .enter().append("line")
 	      .attr("class", "link link-" + teamname)
 	      .style("marker-end",  "url(#suit)") // Modified line 
-	      .style("stroke-width", function(d) { return d.value/4; })
+	      .style("stroke-width", function(d) { return d.value/3; })
 	      /*.style("stroke", function(d){
 	      	return '#4545F4';
 	      })*/
@@ -95,7 +115,7 @@ function draw(teamname){
 	      .data(graph.nodes)
 	    .enter().append("circle")
 	      .attr("class", "node node-" + teamname)
-	      .attr("r", 8)
+	      .attr("r", 10)
 	      .style("fill", function(d) { 
 	      	return '#aaaaaa'; 
 	      })
