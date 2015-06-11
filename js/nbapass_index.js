@@ -72,7 +72,7 @@ function draw(teamname){
 	  			return '球在 ' + d.source.name + ' 和 ' + d.target.name + ' 之間平均傳導了 ' +  formatFloat(d.value, 2) + '次'; 
 	  		})
 	  		.offset(function() {
-		  		return [10, this.getBBox().width / 2];
+		  		// return [10, this.getBBox().width / 2];
 			})
 			.direction(function(){
 	  			if ($(this).offset().left + (this.getBBox().width / 2) + 200 > $(window).width())
