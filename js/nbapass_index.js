@@ -75,9 +75,9 @@ function draw(teamname){
 		  		return [10, this.getBBox().width / 2];
 			})
 			.direction(function(){
-	  			if ($(this).offset().left + this.getBBox().width / 2 > $(window).width)
+	  			if ($(this).offset().left + (this.getBBox().width / 2) + 200 > $(window).width())
 	  				return 'w';
-	  			else if($(this).offset().left - this.getBBox().width / 2 < 0)
+	  			else if($(this).offset().left - this.getBBox().width / 2 -200 < 0)
 	  				return 'e';
 	  			else
 	  				return 's';
@@ -93,7 +93,7 @@ function draw(teamname){
 			  	return str;
 		  	})
 		  	.direction(function(){
-	  			if ($(this).offset().left + this.getBBox().width / 2 > $(window).width)
+	  			if ($(this).offset().left + this.getBBox().width / 2 > $(window).width())
 	  				return 'w';
 	  			else if($(this).offset().left - this.getBBox().width / 2 < 0)
 	  				return 'e';
