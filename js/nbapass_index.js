@@ -1,5 +1,5 @@
 var teams = ['gsw', 'hou', 'lac', 'por', 'mem', 'sas', 'dal', 'nop', 'atl', 'cle', 'chi', 'tor', 'was', 'mil', 'bos', 'bkn'];
-var teamname_list = ['金州勇士', '休士頓火箭', '洛杉磯快艇', '波特蘭拓荒者', '孟斐斯灰熊', '聖安東尼奧馬刺', '達拉斯小牛', '紐奧良鵜鶘', '亞特蘭大老鷹', '克里夫蘭騎士', '芝加哥公牛', '多倫多暴龍', '華盛頓巫師', '密爾瓦基公鹿', '波士頓賽爾提克', '布魯克林籃網'];
+var teamname_list = ['金州勇士', '休士頓火箭', '洛杉磯快艇', '波特蘭拓荒者', '孟斐斯灰熊', '聖安東尼奧馬刺', '達拉斯小牛', '紐奧良鵜鶘', '亞特蘭大老鷹', '克里夫蘭騎士', '芝加哥公牛', '多倫多暴龍', '華盛頓巫師', '密爾瓦基公鹿', '波士頓賽爾蒂克', '布魯克林籃網'];
 var width = '100%', height = 120;
 // var color = d3.scale.category20();
 var node_lists = {};
@@ -29,6 +29,7 @@ d3.csv('data/players_profile.csv', function(data_profile){
 });
 
 $(document).ready(function(){
+
 	
 	for (var i = 0; i < teams.length; i++){
 		var chartblock = d3.select('.charts-container').append('div').attr('class', 'chart-block').attr('id', teams[i] + '-chart-block');
@@ -88,6 +89,18 @@ $(document).ready(function(){
 
 		draw(teams[i]);
 	}
+
+	d3.select('.charts-container').append('button').attr({
+		'class': 'btn btn-default btn-lg btn-pass',
+		'id': 'btn-top-pass'
+	})
+	.html('傳球次數<br>TOP3');
+
+	d3.select('.charts-container').append('button').attr({
+		'class': 'btn btn-default btn-lg btn-pass',
+		'id': 'btn-top-pass-percent'
+	})
+	.html('傳球佔比<br>TOP3');
 
 	document.onclick = function(e){
 
@@ -183,7 +196,7 @@ function draw(teamname){
 
 	  tip_node = d3.tip().attr('class', 'd3-tip')
 		  	.html(function(d){
-		  		console.log(d);
+		  		// console.log(d);
 			  	var str = team_profile[d.team][d.index]['chinesename'] + '   ' +  d.name + '<br>位置：' + team_profile[d.team][d.index]['position'] + '<br>' + team_profile[d.team][d.index]['number'] + '<br>傳球分佈<br>';
 			  	for (var i = 0; i < d.passto_list.length; i++){
 			  		str += d.passto_list[i]['player_name'] + '： ' + d.passto_list[i]['pass_times'] + ' 次<br>';
