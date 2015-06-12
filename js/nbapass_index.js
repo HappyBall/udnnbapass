@@ -1,3 +1,9 @@
+if( /Android|webOS|iPhone|iPod|iPad|BlackBerry|IEMobile|Opera Mini/i.test(navigator.userAgent) ) {
+ // some code..
+ // window.location.href = "http://p.udn.com.tw/upf/newmedia/2015_data/20150527_udncompensate/udncompensate_m/index.html";
+
+}
+
 var teams = ['gsw', 'hou', 'lac', 'por', 'mem', 'sas', 'dal', 'nop', 'atl', 'cle', 'chi', 'tor', 'was', 'mil', 'bos', 'bkn'];
 var teamname_list = ['金州勇士', '休士頓火箭', '洛杉磯快艇', '波特蘭拓荒者', '孟斐斯灰熊', '聖安東尼奧馬刺', '達拉斯小牛', '紐奧良鵜鶘', '亞特蘭大老鷹', '克里夫蘭騎士', '芝加哥公牛', '多倫多暴龍', '華盛頓巫師', '密爾瓦基公鹿', '波士頓塞爾蒂克', '布魯克林籃網'];
 var width = '100%', height = 120;
@@ -112,6 +118,7 @@ $(document).ready(function(){
 				$('#gsw-chart-block').animate({opacity: 1}, 500);
 				$('.top-pass-percent').fadeOut(500);
 				$('#btn-top-pass-percent').html('傳球占比<br>TOP3');
+				$('#btn-top-pass-percent').css('text-align', 'center');
 			}
 			for (var i = 0; i < teams.length; i++){
 				if (teams[i] != 'sas' && teams[i] != 'atl' && teams[i] != 'gsw'){
@@ -120,8 +127,9 @@ $(document).ready(function(){
 			}
 
 			$('#btn-top-pass').html('全隊總傳球<br>次數最高的<br>前3名隊伍');
+			$('#btn-top-pass').css('text-align', 'left');
 			$('.top-pass').fadeIn(500);
-
+			$('.ps').animate({opacity: 0.1}, 500);
 
 			btn_focused = 1;
 		}
@@ -133,6 +141,7 @@ $(document).ready(function(){
 				$('#was-chart-block').animate({opacity: 1}, 500);
 				$('.top-pass').fadeOut(500);
 				$('#btn-top-pass').html('傳球次數<br>TOP3');
+				$('#btn-top-pass').css('text-align', 'center');
 			}
 			for (var i = 0; i < teams.length; i++){
 				if (teams[i] != 'lac' && teams[i] != 'por' && teams[i] != 'was'){
@@ -140,8 +149,10 @@ $(document).ready(function(){
 				}
 			}
 
-			$('#btn-top-pass-percent').html('這5位球員<br>傳球總數占<br>全隊傳球總<br>數的比率');
+			$('#btn-top-pass-percent').html('先發球員傳<br>球總數占全<br>隊傳球總數<br>的比率');
+			$('#btn-top-pass-percent').css('text-align', 'left');
 			$('.top-pass-percent').fadeIn(500);
+			$('.ps').animate({opacity: 0.1}, 500);
 
 			btn_focused = 2;
 		}
@@ -154,8 +165,10 @@ $(document).ready(function(){
 			$('.top-pass').fadeOut(500);
 			$('.top-pass-percent').fadeOut(500);
 			$('#btn-top-pass').html('傳球次數<br>TOP3');
+			$('#btn-top-pass').css('text-align', 'center');
 			$('#btn-top-pass-percent').html('傳球占比<br>TOP3');
-			
+			$('#btn-top-pass-percent').css('text-align', 'center');
+			$('.ps').animate({opacity: 1}, 500);
 			btn_focused = 0;
 		}
 	}
@@ -203,7 +216,7 @@ function draw(teamname){
 	  tip_node = d3.tip().attr('class', 'd3-tip')
 		  	.html(function(d){
 		  		// console.log(d);
-			  	var str = '<span class = "chinese-name">' + team_profile[d.team][d.index]['chinesename'] + '</span>   ' +  d.name + '<br>' + team_profile[d.team][d.index]['position'] + '&nbsp;&nbsp;&nbsp;    ' + team_profile[d.team][d.index]['number'] + '號<p></p>傳球分布<br>';
+			  	var str = '<span class = "chinese-name">' + team_profile[d.team][d.index]['chinesename'] + '</span>   ' +  d.name + '<br>' + team_profile[d.team][d.index]['position'] + '&nbsp;&nbsp;    ' + team_profile[d.team][d.index]['number'] + '號<p></p>傳球分布<br>';
 			  	for (var i = 0; i < d.passto_list.length; i++){
 			  		str += d.passto_list[i]['player_name'] + '： ' + d.passto_list[i]['pass_times'] + ' 次<br>';
 			  	}
