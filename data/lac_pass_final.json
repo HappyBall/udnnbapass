@@ -20,7 +20,8 @@
     }
    ], 
    "group": 1, 
-   "name": "Blake Griffin"
+   "name": "Blake Griffin", 
+   "team": "lac"
   }, 
   {
    "passto_list": [
@@ -42,7 +43,8 @@
     }
    ], 
    "group": 1, 
-   "name": "Chris Paul"
+   "name": "Chris Paul", 
+   "team": "lac"
   }, 
   {
    "passto_list": [
@@ -64,7 +66,8 @@
     }
    ], 
    "group": 1, 
-   "name": "DeAndre Jordan"
+   "name": "DeAndre Jordan", 
+   "team": "lac"
   }, 
   {
    "passto_list": [
@@ -86,7 +89,8 @@
     }
    ], 
    "group": 1, 
-   "name": "JJ Redick"
+   "name": "JJ Redick", 
+   "team": "lac"
   }, 
   {
    "passto_list": [
@@ -108,7 +112,8 @@
     }
    ], 
    "group": 1, 
-   "name": "Matt Barnes"
+   "name": "Matt Barnes", 
+   "team": "lac"
   }
  ], 
  "links": [

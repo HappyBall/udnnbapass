@@ -20,7 +20,8 @@
     }
    ], 
    "group": 1, 
-   "name": "Avery Bradley"
+   "name": "Avery Bradley", 
+   "team": "bos"
   }, 
   {
    "passto_list": [
@@ -42,7 +43,8 @@
     }
    ], 
    "group": 1, 
-   "name": "Brandon Bass"
+   "name": "Brandon Bass", 
+   "team": "bos"
   }, 
   {
    "passto_list": [
@@ -64,7 +66,8 @@
     }
    ], 
    "group": 1, 
-   "name": "Evan Turner"
+   "name": "Evan Turner", 
+   "team": "bos"
   }, 
   {
    "passto_list": [
@@ -86,7 +89,8 @@
     }
    ], 
    "group": 1, 
-   "name": "Marcus Smart"
+   "name": "Marcus Smart", 
+   "team": "bos"
   }, 
   {
    "passto_list": [
@@ -108,7 +112,8 @@
     }
    ], 
    "group": 1, 
-   "name": "Tyler Zeller"
+   "name": "Tyler Zeller", 
+   "team": "bos"
   }
  ], 
  "links": [

@@ -20,7 +20,8 @@
     }
    ], 
    "group": 1, 
-   "name": "Al Horford"
+   "name": "Al Horford", 
+   "team": "atl"
   }, 
   {
    "passto_list": [
@@ -42,7 +43,8 @@
     }
    ], 
    "group": 1, 
-   "name": "DeMarre Carroll"
+   "name": "DeMarre Carroll", 
+   "team": "atl"
   }, 
   {
    "passto_list": [
@@ -64,7 +66,8 @@
     }
    ], 
    "group": 1, 
-   "name": "Jeff Teague"
+   "name": "Jeff Teague", 
+   "team": "atl"
   }, 
   {
    "passto_list": [
@@ -86,7 +89,8 @@
     }
    ], 
    "group": 1, 
-   "name": "Kyle Korver"
+   "name": "Kyle Korver", 
+   "team": "atl"
   }, 
   {
    "passto_list": [
@@ -108,7 +112,8 @@
     }
    ], 
    "group": 1, 
-   "name": "Paul Millsap"
+   "name": "Paul Millsap", 
+   "team": "atl"
   }
  ], 
  "links": [

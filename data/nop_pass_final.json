@@ -20,7 +20,8 @@
     }
    ], 
    "group": 1, 
-   "name": "Anthony Davis"
+   "name": "Anthony Davis", 
+   "team": "nop"
   }, 
   {
    "passto_list": [
@@ -42,7 +43,8 @@
     }
    ], 
    "group": 1, 
-   "name": "Eric Gordon"
+   "name": "Eric Gordon", 
+   "team": "nop"
   }, 
   {
    "passto_list": [
@@ -64,7 +66,8 @@
     }
    ], 
    "group": 1, 
-   "name": "Omer Asik"
+   "name": "Omer Asik", 
+   "team": "nop"
   }, 
   {
    "passto_list": [
@@ -86,7 +89,8 @@
     }
    ], 
    "group": 1, 
-   "name": "Quincy Pondexter"
+   "name": "Quincy Pondexter", 
+   "team": "nop"
   }, 
   {
    "passto_list": [
@@ -108,7 +112,8 @@
     }
    ], 
    "group": 1, 
-   "name": "Tyreke Evans"
+   "name": "Tyreke Evans", 
+   "team": "nop"
   }
  ], 
  "links": [

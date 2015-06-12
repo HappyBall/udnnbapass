@@ -20,7 +20,8 @@
     }
    ], 
    "group": 1, 
-   "name": "Derrick Rose"
+   "name": "Derrick Rose", 
+   "team": "chi"
   }, 
   {
    "passto_list": [
@@ -42,7 +43,8 @@
     }
    ], 
    "group": 1, 
-   "name": "Jimmy Butler"
+   "name": "Jimmy Butler", 
+   "team": "chi"
   }, 
   {
    "passto_list": [
@@ -64,7 +66,8 @@
     }
    ], 
    "group": 1, 
-   "name": "Joakim Noah"
+   "name": "Joakim Noah", 
+   "team": "chi"
   }, 
   {
    "passto_list": [
@@ -86,7 +89,8 @@
     }
    ], 
    "group": 1, 
-   "name": "Mike Dunleavy"
+   "name": "Mike Dunleavy", 
+   "team": "chi"
   }, 
   {
    "passto_list": [
@@ -108,7 +112,8 @@
     }
    ], 
    "group": 1, 
-   "name": "Pau Gasol"
+   "name": "Pau Gasol", 
+   "team": "chi"
   }
  ], 
  "links": [

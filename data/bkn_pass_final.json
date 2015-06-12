@@ -20,7 +20,8 @@
     }
    ], 
    "group": 1, 
-   "name": "Brook Lopez"
+   "name": "Brook Lopez", 
+   "team": "bkn"
   }, 
   {
    "passto_list": [
@@ -42,7 +43,8 @@
     }
    ], 
    "group": 1, 
-   "name": "Deron Williams"
+   "name": "Deron Williams", 
+   "team": "bkn"
   }, 
   {
    "passto_list": [
@@ -64,7 +66,8 @@
     }
    ], 
    "group": 1, 
-   "name": "Joe Johnson"
+   "name": "Joe Johnson", 
+   "team": "bkn"
   }, 
   {
    "passto_list": [
@@ -86,7 +89,8 @@
     }
    ], 
    "group": 1, 
-   "name": "Markel Brown"
+   "name": "Markel Brown", 
+   "team": "bkn"
   }, 
   {
    "passto_list": [
@@ -108,7 +112,8 @@
     }
    ], 
    "group": 1, 
-   "name": "Thaddeus Young"
+   "name": "Thaddeus Young", 
+   "team": "bkn"
   }
  ], 
  "links": [

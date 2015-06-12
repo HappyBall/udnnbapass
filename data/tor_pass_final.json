@@ -20,7 +20,8 @@
     }
    ], 
    "group": 1, 
-   "name": "Amir Johnson"
+   "name": "Amir Johnson", 
+   "team": "tor"
   }, 
   {
    "passto_list": [
@@ -42,7 +43,8 @@
     }
    ], 
    "group": 1, 
-   "name": "DeMar DeRozan"
+   "name": "DeMar DeRozan", 
+   "team": "tor"
   }, 
   {
    "passto_list": [
@@ -64,7 +66,8 @@
     }
    ], 
    "group": 1, 
-   "name": "Jonas Valanciunas"
+   "name": "Jonas Valanciunas", 
+   "team": "tor"
   }, 
   {
    "passto_list": [
@@ -86,7 +89,8 @@
     }
    ], 
    "group": 1, 
-   "name": "Kyle Lowry"
+   "name": "Kyle Lowry", 
+   "team": "tor"
   }, 
   {
    "passto_list": [
@@ -108,7 +112,8 @@
     }
    ], 
    "group": 1, 
-   "name": "Terrence Ross"
+   "name": "Terrence Ross", 
+   "team": "tor"
   }
  ], 
  "links": [

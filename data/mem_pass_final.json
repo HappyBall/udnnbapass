@@ -20,7 +20,8 @@
     }
    ], 
    "group": 1, 
-   "name": "Courtney Lee"
+   "name": "Courtney Lee", 
+   "team": "mem"
   }, 
   {
    "passto_list": [
@@ -42,7 +43,8 @@
     }
    ], 
    "group": 1, 
-   "name": "Marc Gasol"
+   "name": "Marc Gasol", 
+   "team": "mem"
   }, 
   {
    "passto_list": [
@@ -64,7 +66,8 @@
     }
    ], 
    "group": 1, 
-   "name": "Mike Conley"
+   "name": "Mike Conley", 
+   "team": "mem"
   }, 
   {
    "passto_list": [
@@ -86,7 +89,8 @@
     }
    ], 
    "group": 1, 
-   "name": "Tony Allen"
+   "name": "Tony Allen", 
+   "team": "mem"
   }, 
   {
    "passto_list": [
@@ -108,7 +112,8 @@
     }
    ], 
    "group": 1, 
-   "name": "Zach Randolph"
+   "name": "Zach Randolph", 
+   "team": "mem"
   }
  ], 
  "links": [

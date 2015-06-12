@@ -20,7 +20,8 @@
     }
    ], 
    "group": 1, 
-   "name": "Andrew Bogut"
+   "name": "Andrew Bogut", 
+   "team": "gsw"
   }, 
   {
    "passto_list": [
@@ -42,7 +43,8 @@
     }
    ], 
    "group": 1, 
-   "name": "Draymond Green"
+   "name": "Draymond Green", 
+   "team": "gsw"
   }, 
   {
    "passto_list": [
@@ -64,7 +66,8 @@
     }
    ], 
    "group": 1, 
-   "name": "Harrison Barnes"
+   "name": "Harrison Barnes", 
+   "team": "gsw"
   }, 
   {
    "passto_list": [
@@ -86,7 +89,8 @@
     }
    ], 
    "group": 1, 
-   "name": "Klay Thompson"
+   "name": "Klay Thompson", 
+   "team": "gsw"
   }, 
   {
    "passto_list": [
@@ -108,7 +112,8 @@
     }
    ], 
    "group": 1, 
-   "name": "Stephen Curry"
+   "name": "Stephen Curry", 
+   "team": "gsw"
   }
  ], 
  "links": [

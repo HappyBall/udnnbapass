@@ -6,17 +6,66 @@ var node_lists = {};
 var para = 2;
 var static_x = [170/para, 70/para, 108.2/para, 231.8/para, 270/para];
 var static_y = [25/para, 97.7/para, 215.3/para, 215.3/para, 97.7/para];
+var btn_focused = 0;
+var team_profile = {}
 
 //------------------------------------------------------------------------------------------------//
 
+for (var i in teams){
+	team_profile[teams[i]] = [];
+}
+
+d3.csv('data/players_profile.csv', function(data_profile){
+	for (var i in data_profile){
+		var temp = {}
+		temp['chinesename'] = data_profile[i]['chinesename'];
+		temp['name'] = data_profile[i]['name'];
+		temp['position'] = data_profile[i]['position'];
+		temp['number'] = data_profile[i]['number'];
+		team_profile[data_profile[i]['team']].push(temp);
+	}
+
+	// console.log(team_profile);
+});
+
 $(document).ready(function(){
 	
-	
-
-	
 	for (var i = 0; i < teams.length; i++){
-		var chartblock = d3.select('.charts-container').append('div').attr('class', 'chart-block');
+		var chartblock = d3.select('.charts-container').append('div').attr('class', 'chart-block').attr('id', teams[i] + '-chart-block');
 		chartblock.append('div').attr('class', 'teamchart').attr('id', teams[i] + '-chart');
+
+		if (teams[i] == 'sas'){
+			var top_pass_div = chartblock.append('div').attr('class', 'top-pass top-1');
+			top_pass_div.append('div').attr('class', 'top-little-text').text('TOP1');
+			top_pass_div.append('div').attr('class', 'top-big-text').text('346次');
+		}
+		else if (teams[i] == 'atl'){
+			var top_pass_div = chartblock.append('div').attr('class', 'top-pass top-2');
+			top_pass_div.append('div').attr('class', 'top-little-text').text('TOP2');
+			top_pass_div.append('div').attr('class', 'top-big-text').text('323次');
+		}
+		else if (teams[i] == 'gsw'){
+			var top_pass_div = chartblock.append('div').attr('class', 'top-pass top-3');
+			top_pass_div.append('div').attr('class', 'top-little-text').text('TOP3');
+			top_pass_div.append('div').attr('class', 'top-big-text').text('316次');
+		}
+
+		if (teams[i] == 'lac'){
+			var top_pass_div = chartblock.append('div').attr('class', 'top-pass-percent top-1');
+			top_pass_div.append('div').attr('class', 'top-little-text').text('TOP1');
+			top_pass_div.append('div').attr('class', 'top-big-text').text('59.7%');
+		}
+		else if (teams[i] == 'por'){
+			var top_pass_div = chartblock.append('div').attr('class', 'top-pass-percent top-2');
+			top_pass_div.append('div').attr('class', 'top-little-text').text('TOP2');
+			top_pass_div.append('div').attr('class', 'top-big-text').text('50.4%');
+		}
+		else if (teams[i] == 'was'){
+			var top_pass_div = chartblock.append('div').attr('class', 'top-pass-percent top-3');
+			top_pass_div.append('div').attr('class', 'top-little-text').text('TOP3');
+			top_pass_div.append('div').attr('class', 'top-big-text').text('47.5%');
+		}
+
 		
 		var teamname_block = chartblock.append('div').attr('class', 'teamname-block').attr('id', teams[i] + '-teamname-block');
 
@@ -39,9 +88,58 @@ $(document).ready(function(){
 
 		draw(teams[i]);
 	}
-	// draw('cle');
-	// draw('gsw');
 
+	document.onclick = function(e){
+
+		if(e.target.id == 'btn-top-pass'){
+			if(btn_focused == 2){
+				$('.top-pass-percent').fadeOut(500);
+				$('#sas-chart-block').animate({opacity: 1}, 500);
+				$('#atl-chart-block').animate({opacity: 1}, 500);
+				$('#gsw-chart-block').animate({opacity: 1}, 500);
+				$('.top-pass-percent').fadeOut(500);
+			}
+			for (var i = 0; i < teams.length; i++){
+				if (teams[i] != 'sas' && teams[i] != 'atl' && teams[i] != 'gsw'){
+					$('#' + teams[i] + '-chart-block').animate({opacity: 0.1}, 500);
+				}
+			}
+
+			$('.top-pass').fadeIn(500);
+
+
+			btn_focused = 1;
+		}
+		else if (e.target.id == 'btn-top-pass-percent'){
+			if(btn_focused == 1){
+				$('.top-pass').fadeOut(500);
+				$('#lac-chart-block').animate({opacity: 1}, 500);
+				$('#por-chart-block').animate({opacity: 1}, 500);
+				$('#was-chart-block').animate({opacity: 1}, 500);
+				$('.top-pass').fadeOut(500);
+			}
+			for (var i = 0; i < teams.length; i++){
+				if (teams[i] != 'lac' && teams[i] != 'por' && teams[i] != 'was'){
+					$('#' + teams[i] + '-chart-block').animate({opacity: 0.1}, 500);
+				}
+			}
+
+			$('.top-pass-percent').fadeIn(500);
+
+			btn_focused = 2;
+		}
+		else{
+			
+			for (var i = 0; i < teams.length; i++){
+				$('#' + teams[i] + '-chart-block').animate({opacity: 1}, 500);
+			}
+
+			$('.top-pass').fadeOut(500);
+			$('.top-pass-percent').fadeOut(500);
+			
+			btn_focused = 0;
+		}
+	}
 
 });
 
@@ -85,8 +183,8 @@ function draw(teamname){
 
 	  tip_node = d3.tip().attr('class', 'd3-tip')
 		  	.html(function(d){
-		  		// console.log(d);
-			  	var str = '名字： ' + d.name + '<br>傳球分佈<br>';
+		  		console.log(d);
+			  	var str = team_profile[d.team][d.index]['chinesename'] + '   ' +  d.name + '<br>位置：' + team_profile[d.team][d.index]['position'] + '<br>' + team_profile[d.team][d.index]['number'] + '<br>傳球分佈<br>';
 			  	for (var i = 0; i < d.passto_list.length; i++){
 			  		str += d.passto_list[i]['player_name'] + '： ' + d.passto_list[i]['pass_times'] + ' 次<br>';
 			  	}

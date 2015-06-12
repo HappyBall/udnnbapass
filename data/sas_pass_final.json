@@ -20,7 +20,8 @@
     }
    ], 
    "group": 1, 
-   "name": "Danny Green"
+   "name": "Danny Green", 
+   "team": "sas"
   }, 
   {
    "passto_list": [
@@ -42,7 +43,8 @@
     }
    ], 
    "group": 1, 
-   "name": "Kawhi Leonard"
+   "name": "Kawhi Leonard", 
+   "team": "sas"
   }, 
   {
    "passto_list": [
@@ -64,7 +66,8 @@
     }
    ], 
    "group": 1, 
-   "name": "Tiago Splitter"
+   "name": "Tiago Splitter", 
+   "team": "sas"
   }, 
   {
    "passto_list": [
@@ -86,7 +89,8 @@
     }
    ], 
    "group": 1, 
-   "name": "Tim Duncan"
+   "name": "Tim Duncan", 
+   "team": "sas"
   }, 
   {
    "passto_list": [
@@ -108,7 +112,8 @@
     }
    ], 
    "group": 1, 
-   "name": "Tony Parker"
+   "name": "Tony Parker", 
+   "team": "sas"
   }
  ], 
  "links": [

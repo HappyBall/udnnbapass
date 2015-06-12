@@ -20,7 +20,8 @@
     }
    ], 
    "group": 1, 
-   "name": "Damian Lillard"
+   "name": "Damian Lillard", 
+   "team": "por"
   }, 
   {
    "passto_list": [
@@ -42,7 +43,8 @@
     }
    ], 
    "group": 1, 
-   "name": "LaMarcus Aldridge"
+   "name": "LaMarcus Aldridge", 
+   "team": "por"
   }, 
   {
    "passto_list": [
@@ -64,7 +66,8 @@
     }
    ], 
    "group": 1, 
-   "name": "Nicolas Batum"
+   "name": "Nicolas Batum", 
+   "team": "por"
   }, 
   {
    "passto_list": [
@@ -86,7 +89,8 @@
     }
    ], 
    "group": 1, 
-   "name": "Robin Lopez"
+   "name": "Robin Lopez", 
+   "team": "por"
   }, 
   {
    "passto_list": [
@@ -108,7 +112,8 @@
     }
    ], 
    "group": 1, 
-   "name": "Wesley Matthews"
+   "name": "Wesley Matthews", 
+   "team": "por"
   }
  ], 
  "links": [

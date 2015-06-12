@@ -20,7 +20,8 @@
     }
    ], 
    "group": 1, 
-   "name": "Chandler Parsons"
+   "name": "Chandler Parsons", 
+   "team": "dal"
   }, 
   {
    "passto_list": [
@@ -42,7 +43,8 @@
     }
    ], 
    "group": 1, 
-   "name": "Dirk Nowitzki"
+   "name": "Dirk Nowitzki", 
+   "team": "dal"
   }, 
   {
    "passto_list": [
@@ -64,7 +66,8 @@
     }
    ], 
    "group": 1, 
-   "name": "Monta Ellis"
+   "name": "Monta Ellis", 
+   "team": "dal"
   }, 
   {
    "passto_list": [
@@ -86,7 +89,8 @@
     }
    ], 
    "group": 1, 
-   "name": "Rajon Rondo"
+   "name": "Rajon Rondo", 
+   "team": "dal"
   }, 
   {
    "passto_list": [
@@ -108,7 +112,8 @@
     }
    ], 
    "group": 1, 
-   "name": "Tyson Chandler"
+   "name": "Tyson Chandler", 
+   "team": "dal"
   }
  ], 
  "links": [

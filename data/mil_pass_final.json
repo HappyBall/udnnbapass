@@ -20,7 +20,8 @@
     }
    ], 
    "group": 1, 
-   "name": "Ersan Ilyasova"
+   "name": "Ersan Ilyasova", 
+   "team": "mil"
   }, 
   {
    "passto_list": [
@@ -42,7 +43,8 @@
     }
    ], 
    "group": 1, 
-   "name": "Giannis Antetokounmpo"
+   "name": "Giannis Antetokounmpo", 
+   "team": "mil"
   }, 
   {
    "passto_list": [
@@ -64,7 +66,8 @@
     }
    ], 
    "group": 1, 
-   "name": "Khris Middleton"
+   "name": "Khris Middleton", 
+   "team": "mil"
   }, 
   {
    "passto_list": [
@@ -86,7 +89,8 @@
     }
    ], 
    "group": 1, 
-   "name": "Michael Carter-Williams"
+   "name": "Michael Carter-Williams", 
+   "team": "mil"
   }, 
   {
    "passto_list": [
@@ -108,7 +112,8 @@
     }
    ], 
    "group": 1, 
-   "name": "Zaza Pachulia"
+   "name": "Zaza Pachulia", 
+   "team": "mil"
   }
  ], 
  "links": [

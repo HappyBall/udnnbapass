@@ -20,7 +20,8 @@
     }
    ], 
    "group": 1, 
-   "name": "J.R. Smith"
+   "name": "J.R. Smith", 
+   "team": "cle"
   }, 
   {
    "passto_list": [
@@ -42,7 +43,8 @@
     }
    ], 
    "group": 1, 
-   "name": "Kevin Love"
+   "name": "Kevin Love", 
+   "team": "cle"
   }, 
   {
    "passto_list": [
@@ -64,7 +66,8 @@
     }
    ], 
    "group": 1, 
-   "name": "Kyrie Irving"
+   "name": "Kyrie Irving", 
+   "team": "cle"
   }, 
   {
    "passto_list": [
@@ -86,7 +89,8 @@
     }
    ], 
    "group": 1, 
-   "name": "LeBron James"
+   "name": "LeBron James", 
+   "team": "cle"
   }, 
   {
    "passto_list": [
@@ -108,7 +112,8 @@
     }
    ], 
    "group": 1, 
-   "name": "Timofey Mozgov"
+   "name": "Timofey Mozgov", 
+   "team": "cle"
   }
  ], 
  "links": [

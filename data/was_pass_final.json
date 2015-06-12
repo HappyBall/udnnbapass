@@ -20,7 +20,8 @@
     }
    ], 
    "group": 1, 
-   "name": "Bradley Beal"
+   "name": "Bradley Beal", 
+   "team": "was"
   }, 
   {
    "passto_list": [
@@ -42,7 +43,8 @@
     }
    ], 
    "group": 1, 
-   "name": "John Wall"
+   "name": "John Wall", 
+   "team": "was"
   }, 
   {
    "passto_list": [
@@ -64,7 +66,8 @@
     }
    ], 
    "group": 1, 
-   "name": "Marcin Gortat"
+   "name": "Marcin Gortat", 
+   "team": "was"
   }, 
   {
    "passto_list": [
@@ -86,7 +89,8 @@
     }
    ], 
    "group": 1, 
-   "name": "Nene"
+   "name": "Nene", 
+   "team": "was"
   }, 
   {
    "passto_list": [
@@ -108,7 +112,8 @@
     }
    ], 
    "group": 1, 
-   "name": "Paul Pierce"
+   "name": "Paul Pierce", 
+   "team": "was"
   }
  ], 
  "links": [
