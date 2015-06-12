@@ -44,7 +44,7 @@ body {
 	.d3-tip{
 		padding: 12px;
 		background: #fff;
-		z-index: 20;
+		z-index: 100;
 		border: 2px solid #4545F4;
 	}
 
@@ -101,7 +101,7 @@ body {
 	}
 
 	.top-big-text{
-		font-size: 40px;
+		font-size: 30px;
 	}
 
 	.top-1{
